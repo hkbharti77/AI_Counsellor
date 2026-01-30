@@ -3,7 +3,7 @@ import { getCookie, deleteCookie } from 'cookies-next';
 
 // Create axios instance
 const api = axios.create({
-    baseURL: 'http://localhost:8000/api',
+    baseURL: 'https://ai-counsellor-b.onrender.com/api',
     headers: {
         'Content-Type': 'application/json',
     },
